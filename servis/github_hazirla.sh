@@ -5,7 +5,7 @@
 #
 # Kullanım (Ema klasöründe):
 #   bash servis/github_hazirla.sh                      # github_repo/
-#   HEDEF=~/Desktop/turkce-seslendirme bash servis/github_hazirla.sh
+#   HEDEF=~/Desktop/meram-tts bash servis/github_hazirla.sh
 # Kaynak her zaman bu proje: değişiklikten sonra yeniden çalıştırmak yeter. Hedefteki .git klasörüne dokunulmaz.
 set -euo pipefail
 

@@ -103,9 +103,9 @@ def ornek_sec():
         st.session_state.metin = ORNEKLER[secim]
 
 
-st.set_page_config(page_title="Türkçe Seslendirme · EMA Lightning", page_icon="🔊")
+st.set_page_config(page_title="Meram · Türkçe Seslendirme", page_icon="🔊")
 
-st.title("Türkçe Seslendirme")
+st.title("Meram")
 st.caption("EMA Lightning ile metni ve belgeleri sese çevirir. "
            + ("Metin ve belgeler bu Space'in sunucusunda işlenir, başka bir servise gönderilmez."
               if BULUT else "Her şey bu bilgisayarda çalışır, metin hiçbir yere gönderilmez."))

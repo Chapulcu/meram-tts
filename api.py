@@ -1,4 +1,4 @@
-"""Türkçe seslendirme API'si: başka uygulamalar metni buradan sese çevirir.
+"""Meram API'si (Türkçe seslendirme): başka uygulamalar metni buradan sese çevirir.
 
 Çalıştırmak için (Ema klasöründe):
     uv run python api.py                         # yalnızca bu bilgisayardan: http://127.0.0.1:8000
@@ -133,7 +133,7 @@ async def omur(_):
     yield
 
 
-app = FastAPI(title="Türkçe Seslendirme API", version="1.0", lifespan=omur,
+app = FastAPI(title="Meram API · Türkçe Seslendirme", version="1.0", lifespan=omur,
               description="EMA Lightning tabanlı, tamamen bu bilgisayarda çalışan Türkçe metinden sese API'si. "
                           "Varsayılan ses listedeki ilk mevcut sestir. Üretilen sesler yapay zekâ "
                           "ile üretilmiştir; yayımlarken ya da bir görüşmede kullanırken dinleyicilere belirtin.")

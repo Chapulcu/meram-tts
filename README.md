@@ -1,4 +1,6 @@
-# Türkçe Seslendirme
+# Meram
+
+**Türkçe seslendirme** · github.com/Chapulcu/meram-tts
 
 [EMA Lightning](https://huggingface.co/canberkkkkkk/ema-lightning) tabanlı, tamamen yerelde çalışan Türkçe metinden
 sese sistemi: yeni seslerle ince ayarlanmış modeller, metin ve belgeden seslendirme yapan bir Streamlit uygulaması,
@@ -32,7 +34,7 @@ hiçbiri gerçek bir kişinin sesi değildir.
 [uv](https://docs.astral.sh/uv/) ve Python 3.12 gerekir. MP3 çıktısı için [ffmpeg](https://ffmpeg.org/).
 
 ```bash
-git clone <bu depo> && cd <bu depo>
+git clone https://github.com/Chapulcu/meram-tts.git && cd meram-tts
 uv sync
 uv run streamlit run app.py          # uygulama: http://localhost:8501
 uv run python api.py                 # API: http://127.0.0.1:8000  (belgeler: /docs)

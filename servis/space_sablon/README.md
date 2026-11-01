@@ -1,5 +1,5 @@
 ---
-title: Türkçe Seslendirme
+title: Meram
 emoji: 🔊
 colorFrom: indigo
 colorTo: pink
@@ -10,7 +10,9 @@ license: apache-2.0
 short_description: Türkçe metin ve belgelerden hızlı seslendirme
 ---
 
-# Türkçe Seslendirme
+# Meram
+
+**Türkçe seslendirme** · kaynak kod: https://github.com/Chapulcu/meram-tts
 
 Türkçe metni ve belgeleri sese çeviren bir uygulama. Altında [EMA Lightning](https://huggingface.co/canberkkkkkk/ema-lightning)
 var: 8,6 milyon parametrelik, işlemcide bile gerçek zamandan hızlı çalışan bir Türkçe konuşma modeli. Sayılar, tarihler,
@@ -51,8 +53,8 @@ da başkasının yerine geçmek için kullanmayın.
 ## Yerelde çalıştırma
 
 ```bash
-docker build --platform linux/amd64 -t ema-seslendirme .
-docker run --rm --platform linux/amd64 -p 8501:8501 ema-seslendirme
+docker build --platform linux/amd64 -t meram-tts .
+docker run --rm --platform linux/amd64 -p 8501:8501 meram-tts
 ```
 
 Sonra tarayıcıda http://localhost:8501 adresini açın. `--platform linux/amd64` Hugging Face'in donanımıyla aynı

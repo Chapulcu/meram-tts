@@ -1,7 +1,7 @@
 [project]
-name = "turkce-seslendirme"
+name = "meram-tts"
 version = "0.1.0"
-description = "EMA Lightning tabanlı Türkçe seslendirme: ince ayarlı sesler, metin ve belgeden seslendirme, API"
+description = "Meram: EMA Lightning tabanlı Türkçe seslendirme: ince ayarlı sesler, metin ve belgeden seslendirme, API"
 requires-python = ">=3.12"
 license = "Apache-2.0"
 dependencies = [

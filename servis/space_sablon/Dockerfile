@@ -1,5 +1,5 @@
-# Hugging Face Docker Space: Türkçe seslendirme (Streamlit + EMA Lightning, yalnızca işlemci).
-# Yerelde denemek için:  docker build -t ema-seslendirme . && docker run --rm -p 8501:8501 ema-seslendirme
+# Hugging Face Docker Space: Meram, Türkçe seslendirme (Streamlit + EMA Lightning, yalnızca işlemci).
+# Yerelde denemek için:  docker build -t meram-tts . && docker run --rm -p 8501:8501 meram-tts
 FROM python:3.12-slim
 
 # ffmpeg: MP3 çıktısı · antiword: eski Word (.doc) belgeleri
