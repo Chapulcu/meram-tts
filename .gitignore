@@ -1,0 +1,37 @@
+# Ortamlar ve önbellekler
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.DS_Store
+.claude/
+
+# Üretilen klasörler ve çıktılar
+cikti/
+huggingface_space/
+github_repo/
+*.log
+
+# Kişisel sesler ve gizli ayarlar: depoya asla girmez
+kisisel_sesler.py
+servis/api.env
+
+# Ses ağırlıkları: yalnızca yayımlanan sentetik sesler (Elif, Kerem, Defne) depoda
+deneyler/akustik/agirliklar/*
+!deneyler/akustik/agirliklar/ema_kadin.pt
+!deneyler/akustik/agirliklar/ema_erkek.pt
+!deneyler/akustik/agirliklar/ema_kiz_cocuk.pt
+deneyler/agirliklar/*
+!deneyler/agirliklar/decoder_kadin.pt
+!deneyler/agirliklar/decoder_erkek.pt
+!deneyler/agirliklar/decoder_kiz_cocuk.pt
+
+# Eğitim verisi ve ara çıktılar (onlarca GB; betiklerle yeniden üretilir)
+deneyler/veri/*/
+deneyler/veri/cumleler.tsv
+deneyler/akustik/veri*/
+deneyler/akustik/cikti/
+deneyler/cikti/
+sesler/adaylar/
+sesler/*.wav
+sesler/secilen/*_deneme*.wav

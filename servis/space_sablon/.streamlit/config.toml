@@ -1,0 +1,11 @@
+[server]
+headless = true
+port = 8501                 # Hugging Face yalnızca README'deki app_port'u açar
+address = "0.0.0.0"
+maxUploadSize = 200         # MB
+# Space'ler uygulamayı bir iframe içinde gösterir; bu ikisi açıkken dosya yükleme 403 hatası verir
+enableXsrfProtection = false
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

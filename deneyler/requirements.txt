@@ -1,0 +1,15 @@
+# Eğitim ve deney ortamı (Apple Silicon Mac'te test edildi). Kurulum (deneyler klasöründe):
+#   uv venv --python 3.12 .venv
+#   uv pip install --python .venv -r requirements.txt
+#   uv pip install --python .venv --no-deps voxcpm==2.0.3
+# voxcpm'den yalnızca AudioVAE (kodlayıcı/çözücü) dosyası kullanılır; ağır bağımlılıklarına gerek yok.
+ema-lightning==1.1.2
+torch==2.15.0
+numpy==2.5.4
+scipy==1.18.1
+pydantic==2.14.2
+huggingface-hub==2.4.0
+normalizer-tr==0.8.1
+soundfile==0.14.0
+matplotlib==3.11.2
+mlx-whisper==0.4.3      # Whisper denetimi ve kelime zamanları (Apple Silicon)

@@ -1,0 +1,6 @@
+# VoxCPM2 ile ses tasarımı ve sentetik veri üretimi ortamı. Kurulum (sesler klasöründe):
+#   uv venv --python 3.12 .venv && uv pip install --python .venv -r requirements.txt
+voxcpm==2.0.3
+torch==2.15.0
+numpy==2.5.4
+soundfile==0.14.0

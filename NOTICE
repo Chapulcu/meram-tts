@@ -1,0 +1,22 @@
+Türkçe Seslendirme
+Copyright 2026 Türkçe Seslendirme katkıcıları
+
+Bu proje Apache License 2.0 ile lisanslanmıştır (bkz. LICENSE) ve aşağıdaki çalışmalardan yararlanır.
+
+EMA Lightning — Canberk Aslan — Apache License 2.0
+  https://huggingface.co/canberkkkkkk/ema-lightning
+  https://github.com/canberk7/ema-lightning
+  Değişiklik bildirimi: deneyler/akustik/agirliklar/ema_*.pt ve deneyler/agirliklar/decoder_*.pt dosyaları,
+  EMA Lightning'in ema.pt (akustik model) ve decoder.pt (çözücü) ağırlıklarından türetilmiştir; yeni seslerle
+  (Elif, Kerem, Defne) üretilmiş yaklaşık 10'ar saatlik sentetik veriyle ince ayarlanmışlardır.
+  EMA Lightning'in kodu değiştirilmeden, Python paketi (ema-lightning) olarak kullanılır.
+
+normalizer-tr — Erdem Tuna — Apache License 2.0 (Türkçe metin normalleştirme; bağımlılık olarak kullanılır)
+  https://github.com/erdemtuna/normalizer-tr
+
+VoxCPM2 — OpenBMB — Apache License 2.0 (seslerin tasarımı, sentetik eğitim verisinin üretimi ve çözücü
+  uyarlamasında öğretmen olarak kullanılmıştır; ağırlıkları bu depoda dağıtılmaz)
+  https://huggingface.co/openbmb/VoxCPM2
+
+Mozilla Common Voice Türkçe cümle derlemi — CC0 (eğitim cümleleri)
+  https://github.com/common-voice/common-voice
