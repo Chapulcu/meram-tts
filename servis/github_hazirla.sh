@@ -51,5 +51,5 @@ fi
 mkdir -p "$HEDEF"
 rsync -a --delete --exclude .git "$GECICI/" "$HEDEF/"
 echo "Depo klasörü hazır: $HEDEF"
-echo "  $(find "$HEDEF" -type f -not -path '*/.git/*' | wc -l | tr -d ' ') dosya · $(du -sh --exclude=.git "$HEDEF" 2> /dev/null | cut -f1 || du -sh "$HEDEF" | cut -f1)"
+echo "  $(find "$HEDEF" -type f -not -path '*/.git/*' | wc -l | tr -d ' ') dosya · $(find "$HEDEF" -type f -not -path '*/.git/*' -exec stat -f %z {} + | awk '{s += $1} END {printf "%.0f MB", s / 1e6}')"
 echo "  sesler: ${SESLER[*]} · kişisel iz taraması: temiz"
